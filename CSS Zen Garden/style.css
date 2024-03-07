@@ -1,17 +1,37 @@
 /*preto: #161010 azul: #192E5D vermelho: #980E0C branco: #DDE3E3*/
-html {
-  background: #DDE3E3;
-  color: #161010;
+
+html{
+    background: #DDE3E3;
+    color: #161010;
+    font-size: 110%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 1em;
 }
 
 h1 {
-  color: #980E0C;
+    font-size: 1.8rem;
+    text-align: right;
+    color: #980E0C;
 }
-
 h2 {
-  color: #161010;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #161010;
+}
+h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #192E5D;
 }
 
-h3 {
-  color: #192E5D;
+.intro {
+    text-align: center;
+}
+
+#zen-supporting {
+    line-height: 1.5;
+}
+
+abbr {
+    text-transform: lowercase;
 }
