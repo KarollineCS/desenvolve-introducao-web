@@ -1,0 +1,17 @@
+/*preto: #161010 azul: #192E5D vermelho: #980E0C branco: #DDE3E3*/
+html {
+  background: #DDE3E3;
+  color: #161010;
+}
+
+h1 {
+  color: #980E0C;
+}
+
+h2 {
+  color: #161010;
+}
+
+h3 {
+  color: #192E5D;
+}
