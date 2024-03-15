@@ -25,13 +25,13 @@ html {
 .explanation {
     width: 60%;
     margin-right: 35%;
-    border-right: 1px solid #980E0C;
+    border-right: 1px solid #192E5D;
     padding-right: 2%;
 }
 
 #design-selection {
     position: absolute;
-    top: 520px;
+    top: 460px;
     left: 62%;
     padding-left: 1%;
     padding-right: 1%;
@@ -94,15 +94,15 @@ aside ul li {
 }
 
 .main footer a {
-    border: solid 2px #980E0C;
+    border: solid 2px #192E5D;
     padding: 0.5rem;
     display: inline-block;
 }
 
 .benefits {
     display: flex;
-    border-top: #980E0C solid 1px;
-    border-bottom: #980E0C solid 1px;
+    border-top: #192E5D solid 1px;
+    border-bottom: #192E5D solid 1px;
 }
 
 .benefits p {
@@ -119,7 +119,7 @@ aside ul li {
 .participation {
     display: flex;
     flex-wrap: wrap;
-    border-top: #980E0C solid 1px;
+    border-top: #192E5D solid 1px;
 }
 
 .participation h3, .participation p {
@@ -128,4 +128,34 @@ aside ul li {
 
 .participation h3 {
     align-self: center;
+}
+
+a {
+    color: #980E0C;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #f33f3c;
+}
+
+a:visited {
+    font-weight: lighter;
+    color: #980E0C;
+}
+
+.main p:first-of-type::first-letter {
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+}
+
+.design-selection li {
+    border-top: #192E5D solid 1px;
+    padding-top: 5px;
+}
+
+.design-selection li:last-of-type {
+    border-bottom: #192E5D solid 1px;
+    padding-bottom: 5px;
 }
