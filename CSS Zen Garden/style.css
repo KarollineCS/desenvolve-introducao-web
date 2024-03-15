@@ -25,13 +25,13 @@ html {
 .explanation {
     width: 60%;
     margin-right: 35%;
-    border-right: 1px solid #1f295c;
+    border-right: 1px solid #980E0C;
     padding-right: 2%;
 }
 
 #design-selection {
     position: absolute;
-    top: 560px;
+    top: 520px;
     left: 62%;
     padding-left: 1%;
     padding-right: 1%;
@@ -89,10 +89,43 @@ aside ul li {
 
 .main footer {
     margin: 4%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .main footer a {
     border: solid 2px #980E0C;
     padding: 0.5rem;
     display: inline-block;
+}
+
+.benefits {
+    display: flex;
+    border-top: #980E0C solid 1px;
+    border-bottom: #980E0C solid 1px;
+}
+
+.benefits p {
+    flex-basis: 70%;
+    text-align: justify;
+}
+
+.benefits h3 {
+    order: 2;
+    align-self: center;
+    flex-basis: 30%;
+}
+
+.participation {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: #980E0C solid 1px;
+}
+
+.participation h3, .participation p {
+    flex-basis: 50%;
+}
+
+.participation h3 {
+    align-self: center;
 }
